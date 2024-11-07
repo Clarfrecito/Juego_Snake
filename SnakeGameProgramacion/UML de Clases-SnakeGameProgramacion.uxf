@@ -1,0 +1,36 @@
+<diagram program="umletino" version="15.1"><zoom_level>6</zoom_level><element><id>UMLClass</id><coordinates><x>312</x><y>108</y><w>138</w><h>78</h></coordinates><panel_attributes>Caminante
+-
+- int velocidad
+- int [ ] y
+- int [ ] x
+
+-
++ moverse(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>216</y><w>144</w><h>78</h></coordinates><panel_attributes>PanelFondo
+-
+
+-
++ paintComponent(Graphics g): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>138</x><y>216</y><w>144</w><h>78</h></coordinates><panel_attributes>PanelSnake
+-
+- Caminante snake
+- Timer timer
+
+-
++ actionPerformed(ActionEvent e): void
++ iniciarJuego(): void
++ checkColisiones(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>324</y><w>144</w><h>78</h></coordinates><panel_attributes>Pintor
+-
+- PanelFondo fondo
+-
++ dibujarSnake(Graphics g): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>138</x><y>324</y><w>144</w><h>78</h></coordinates><panel_attributes>Vista
+-
+- PanelSnake panel
+
+-
++ inicializarVista(): void
++ mostrar(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>546</x><y>288</y><w>18</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>204</x><y>138</y><w>120</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>180;10;10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>204</x><y>288</y><w>18</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
