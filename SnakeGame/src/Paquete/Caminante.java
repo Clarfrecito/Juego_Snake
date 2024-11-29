@@ -1,4 +1,4 @@
-package Paquete;
+package Juego_Snake.SnakeGame.src.Paquete;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

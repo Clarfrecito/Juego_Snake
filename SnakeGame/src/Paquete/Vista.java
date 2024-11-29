@@ -1,4 +1,4 @@
-package Paquete;
+package Juego_Snake.SnakeGame.src.Paquete;
 
 import static Paquete.PanelSnake.score;
 import java.awt.Component;

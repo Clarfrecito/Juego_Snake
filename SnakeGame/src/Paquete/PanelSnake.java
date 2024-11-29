@@ -1,4 +1,4 @@
-package Paquete;
+package Juego_Snake.SnakeGame.src.Paquete;
 
 import java.awt.Color;
 import java.awt.Graphics;
